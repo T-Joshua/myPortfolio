@@ -1,0 +1,67 @@
+.content {
+  /* position: relative; */
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../../Assets/myBG.jpg");
+  background-size: cover;
+  background-position: center;
+  /* right: 10%; */
+  padding: 125px 0 0 50px;
+  /* text-align: center; */
+  /* align-items: center; */
+}
+
+h1 {
+  color: white;
+  margin: 3px 0 5px;
+  font-size: 75px;
+}
+h3 {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+h4 {
+  color: #fcfc;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+.newsletter form {
+  display: flex;
+  width: 38px;
+  max-width: 100%;
+  position: relative;
+}
+
+.newsletter form input {
+  display: inline-block;
+  /* width: 100%; */
+  padding: 16px 100px 14px 43px;
+  border: 2px solid #f9004d;
+  outline: none;
+  border-radius: 30px;
+}
+
+.newsletter form button {
+  position: absolute;
+  display: inline-block;
+  outline: none;
+  border: none;
+  padding: 5px 45px;
+  border-radius: 30px;
+  background-color: #f9004d;
+  color: white;
+  box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+  top: 4px;
+  left: 163px;
+  cursor: pointer;
+  text-align: center;
+}
+
+@media (max-width: 940px) {
+  .newsletter form button {
+    top: 3.5px;
+    left: 157px;
+  }
+}
